@@ -1,0 +1,13 @@
+---           
+apiVersion: v1
+kind: Service
+metadata:
+  name: mysvc
+  namespace: argocd
+spec:
+  type: Nodeport
+  selector:
+    app: swiggy
+  ports:
+    - port: 80
+      targetport: 80
