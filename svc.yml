@@ -5,7 +5,7 @@ metadata:
   name: mysvc
   namespace: argocd
 spec:
-  type: Nodeport
+  type: NodePort
   selector:
     app: swiggy
   ports:
