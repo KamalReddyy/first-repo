@@ -5,7 +5,7 @@ metadata:
   name: mydp
   namespace: argocd
 spec:
-  replicas: 4
+  replicas: 6
   selector:
     matchLabels:
       app: swiggy
@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: cont-1
-          image: shaikmustafa/netflix
+          image: shaikmustafa/cycle
           ports:
             - containerPort: 80
 
