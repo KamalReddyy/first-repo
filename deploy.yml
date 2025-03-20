@@ -3,7 +3,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: mydp
-  namespace: argocd
+  namespace: argo
 spec:
   replicas: 6
   selector:
