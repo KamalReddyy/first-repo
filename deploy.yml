@@ -12,7 +12,7 @@ spec:
   template:
     metadata:
       labels:
-        app: swiggy
+        app: wiggy
     spec:
       containers:
         - name: cont-1
