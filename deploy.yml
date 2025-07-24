@@ -3,16 +3,15 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: mydp
-  namespace: argo
 spec:
   replicas: 6
   selector:
     matchLabels:
-      app: swigy
+      app: swiggy
   template:
     metadata:
       labels:
-        app: wiggy
+        app: swiggy
     spec:
       containers:
         - name: cont-1
